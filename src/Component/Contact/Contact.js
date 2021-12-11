@@ -1,34 +1,29 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
 
+import './contact.css';
 const Contact = () => {
     return (
-        <div id="contact">
+        <div id="contact"  >
             <h2 style={{color: "white", marginLeft: "30%", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>Contact now</h2>
        
-       <div>
-    
+       <div id="contact-form" style={{}} >
+       <form action="https://formsubmit.co/coding.club.pro@gmail.com" method="POST">
+     <input style={{width: "65%", marginLeft: "10%", marginTop: "5%" , paddingLeft: "1%" }} placeholder="Enter your name" type="text" name="name" required />
+     <br/>
+     <br/>
+     <input style={{width: "65%", marginLeft: "10%", paddingLeft: "1%" }} type="email" name="email" placeholder="Email Address" required />
+     <br/>
+     <br/>
+     <textarea style={{width: "75%",marginLeft: "10%", paddingLeft: "1%" }} name="message" id="" cols="30" rows="10" placeholder="Message"></textarea >
+     <br/>
+     <input type="hidden" name="_captcha" value="false" />
+     <button style={{width: "35%", marginTop: "10px", marginLeft: "20%", marginBottom: "5%" , backgroundColor: "greenyellow", fontWeight: "bolder", color: "burlywood"}} type="submit">Send</button>
+</form>
 
-{/* 
-<Form action="https://formsubmit.co/md.ashik0005723@gmail.com" method="POST">
-  <Form.Group className="mb-3" controlId="Enter your Name">
-    <Form.Label>Name</Form.Label>
-    <Form.Control type="text" name="name" placeholder="Enter your Name" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter your Email" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Example textarea</Form.Label>
-    <Form.Control as="textarea" rows={3}  placeholder="Message" />
-  </Form.Group>
-  <Form.Control type="hidden" name="_captcha" value="false"/>
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
-</Form> */}
        </div>
+      <div>
+     <h4 style={{color: "white", textAlign: 'center', marginTop: "3%"}}>Copyright &copy;2021 All Rights Reserved</h4>
+      </div>
         </div>
     );
 };
