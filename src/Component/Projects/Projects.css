@@ -4,4 +4,6 @@
 
 .project{
     transition: transform .9s;
+    width: 20%;
+    height: 25%;
 }
