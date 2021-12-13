@@ -1,6 +1,8 @@
 import React from 'react';
 import './Service.css';
-import './responsive.png';
+import responsive from './img/responsive.png';
+import code from './img/coding.png';
+import debug from './img/debug.png';
 
 const Service = () => {
     return (
@@ -8,7 +10,7 @@ const Service = () => {
             <div className="container mt-5">
                <div class="row">
                <div class="col-sm-4" style={{color: "white"}}>
-               <i className="fas fa-code text-custom"></i>
+               <i width="55px" className="fas fa-code text-custom"></i>
                     <h2>Web Design</h2>
                     <p style={{color: "white"}}>
                     There are many variations of passages 
@@ -16,17 +18,9 @@ const Service = () => {
                      in some form.
                     </p>
                 </div>
+               
                 <div class="col-sm-4" style={{color: "white"}}>
-                <i class="fab fa-html5 text-custom display-4"></i>
-                    <h2>PSD to HTML</h2>
-                    <p>
-                    I will convert your PSD to HTML5 with
-                     Latest Bootstrap. It will fully responsive 
-                     and Pixel perfect.
-                    </p>
-                </div>
-                <div class="col-sm-4" style={{color: "white"}}>
-                <i class="mbri-growing-chart text-custom display-4"></i>
+                
                     <h2>Graphic Design</h2>
                     <p>
                     I can design logo, banner, thumbnail
@@ -35,7 +29,7 @@ const Service = () => {
                     </p>
                 </div>
                 <div class="col-sm-4" style={{color: "white"}}>
-              
+              <img width="55px" src={responsive} alt="responsive"/>
                     <h2>Responsive Design</h2>
                     <p>
                     I can design responsive webpages.
