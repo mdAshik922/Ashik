@@ -18,18 +18,27 @@ const About = () => {
             <button type="button" className="btn btn-sm btn-success m-2">React.js</button>
             <button type="button" className="btn btn-sm btn-success m-2">React Router</button>
             <button type="button" className="btn btn-sm btn-success m-2">html/css</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Bootstrap</button>
+            <button type="button" className="btn btn-sm btn-success m-2">Bootstrap/React Bootstrap</button>
             <button type="button" className="btn btn-sm btn-success m-2">Tailwind css</button>
             <button type="button" className="btn btn-sm btn-success m-2">Material-UI</button>
             <button type="button" className="btn btn-sm btn-success m-2">Github</button>
             <button type="button" className="btn btn-sm btn-success m-2">Rest API</button>
            
-            <h3 style={{color: "blue"}} >Familiar with :</h3>
+            <h3 style={{color: "blue"}} >Comfortable with :</h3>
             <button type="button" className="btn btn-sm btn-success m-2">Node.js</button>
             <button type="button" className="btn btn-sm btn-success m-2">Express.js</button>
             <button type="button" className="btn btn-sm btn-success m-2">MongoDB</button>
             <button type="button" className="btn btn-sm btn-success m-2">Firebase</button> 
+            <button type="button" className="btn btn-sm btn-success m-2">payment gateway</button>
+            
+           
+            <h3 style={{color: "blue"}} >Familiar with :</h3>
+            <button type="button" className="btn btn-sm btn-success m-2">Redux</button>
+            <button type="button" className="btn btn-sm btn-success m-2">React Tailwind</button>
+            <button type="button" className="btn btn-sm btn-success m-2">Next.js</button>
+            <button type="button" className="btn btn-sm btn-success m-2">React Native</button> 
             <button type="button" className="btn btn-sm btn-success m-2">Typescript</button>
+            <button type="button" className="btn btn-sm btn-success m-2">Google Map</button>
            
             <h3 style={{color: "blue"}} >Tools :</h3>
             <button type="button" className="btn btn-sm btn-success m-2">VS Code</button>
@@ -41,8 +50,55 @@ const About = () => {
             <h3 style={{color: "blue"}} >Deploy :</h3>
             <button type="button" className="btn btn-sm btn-success m-2">Heroku</button>
             <button type="button" className="btn btn-sm btn-success m-2">Netlify</button>
+            <button type="button" className="btn btn-sm btn-success m-2">Firebase</button>
+            <button type="button" className="btn btn-sm btn-success m-2">Github</button>
 
         </div>
+
+
+        <div className="skill-bars">
+    <div className="bar">
+      <div className="info">
+        <span>HTML</span>
+      </div>
+      <div className="progress-line html">
+        <span></span>
+      </div>
+    </div>
+    <div className="bar">
+      <div className="info">
+        <span>CSS</span>
+      </div>
+      <div className="progress-line css">
+        <span></span>
+      </div>
+    </div>
+    <div className="bar">
+      <div className="info">
+        <span>jQuery</span>
+      </div>
+      <div className="progress-line jquery">
+        <span></span>
+      </div>
+    </div>
+    <div className="bar">
+      <div className="info">
+        <span>Python</span>
+      </div>
+      <div className="progress-line python">
+        <span></span>
+      </div>
+    </div>
+    <div className="bar">
+      <div className="info">
+        <span>MySQL</span>
+      </div>
+      <div className="progress-line mysql">
+        <span></span>
+      </div>
+    </div>
+  </div>
+
         </div>
     );
 };

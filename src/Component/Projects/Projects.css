@@ -4,10 +4,13 @@
 
 .project{
     transition: transform .9s;
+    width: 35%;
+  
     margin: 0 auto;
 }
 
 .project:hover{
+    border: 1px solid blueviolet;
     -ms-transform: scale(1.5);
 -webkit-transform: scale(1.5);
 transform: scale(1.1); 
