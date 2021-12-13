@@ -4,11 +4,9 @@ import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import Fade from 'react-reveal/Fade';
-import { Link } from 'react-router-dom';
+import SocialLink from './SocialLink';
 
 const Home = () => {
-    
-
 
     return (
         <div id="home" style={{backgroundColor: "black"}}>
@@ -31,14 +29,7 @@ const Home = () => {
                 </div>
          
             </div>
-            <div style={{textAlign: "end", marginRight: "5%"}}>
-      <Link to="https://github.com/mdAshik922">
-          <i  style={{ color: "white",}} className="fab fa-github"></i></Link>
-       <Link to="https://www.linkedin.com/in/md-mahmudul-hassan-ashik/">
-           <i style={{ color: "white",  margin: "15px"}} className="fab fa-linkedin"></i></Link>
-       <Link to="https://www.facebook.com/profile.php?id=100042195889411">
-           <i style={{ color: "white"}} className="fab fa-facebook"></i></Link>
-           </div>
+           <SocialLink></SocialLink>
             <About></About>
             <Projects></Projects>
             <Blogs></Blogs>
