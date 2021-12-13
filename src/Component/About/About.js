@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div id="about" style={{marginTop: "30%", marginLeft: "15%"}}>
+        <div id="about" style={{marginTop: "10%", marginLeft: "15%"}}>
            <div>
            <h2 style={{color: "white", marginLeft: "30%", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>About</h2>
             <p style={{color: "white"}}><strong>I am a Web Developer mainly

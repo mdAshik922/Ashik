@@ -18,8 +18,6 @@ const Home = () => {
                   
 <h2 >  <Fade left cascade> Md.Mahmudul Hassan Ashik</Fade></h2>
       
- 
-        
                     <p><strong>
                     I am a Web Developer and mainly focused on frontend.
                      I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>

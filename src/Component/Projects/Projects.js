@@ -4,7 +4,14 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div id="projects" style={{marginLeft: "15%", marginTop: "10%"}}>
- <h2 style={{color: "white", marginLeft: "30%", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>Here Are Some of My Projects</h2>
+ <h2 style={{color: "white", marginLeft: "20%", marginBottom: "4%",
+  fontSize: "4rem", fontWeight: "bolder"}}
+ >Here Are Some of </h2>
+
+ <h2 style={{color: "white", marginTop: "-7vh", marginBottom: "4%", marginLeft: "20%",  fontSize: "4rem",
+  fontWeight: "bolder"}}
+ >My Projects</h2>
+<p style={{color: "green"}}>---------------  ------------</p>
 <div style={{display: "flex", flexDirection: "row"}} >
 
 <div style={{}}>
@@ -30,7 +37,8 @@ const Projects = () => {
            </div>
 
         </div>
-        <div style={{display: "flex", flexDirection: "row", marginTop: "15%"}}>
+
+        <div style={{display: "flex", flexDirection: "row", marginTop: "2%"}}>
             
            <div style={{}}>
            <img width="55%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
@@ -41,7 +49,7 @@ const Projects = () => {
             className="btn btn-sm btn-success">GitHub</Link></div></div>
            </div>
 
-           <div style={{}}>
+           <div style={{marginTop: "2%"}}>
            <img width="55%" src="https://i.ibb.co/Yf2NtW2/Screenshot-10.png" alt="study"/>
             <div class="d-flex justify-content-between align-items-center"><div className="btn-group">
                 <Link to="https://gracious-austin-dbf746.netlify.app"
@@ -50,6 +58,7 @@ const Projects = () => {
             className="btn btn-sm btn-success">GitHub</Link>
            </div></div>
              
+           </div>
            </div>
 
            <div style={{display: "flex", flexDirection: "row"}} >
@@ -63,7 +72,7 @@ const Projects = () => {
             className="btn btn-sm btn-success">GitHub</Link>
            </div></div></div>
 
-           <div style={{}}>
+           <div style={{marginTop: "2%"}}>
            <img width="55%" src="https://i.ibb.co/zN9jjNx/Screenshot-6.png" alt="Brand-store"/>
             <div class="d-flex justify-content-between align-items-center"><div className="btn-group">
                 <Link to="https://compassionate-rosalind-a8fe71.netlify.app"
@@ -75,7 +84,7 @@ const Projects = () => {
 
             </div>
         </div>
-        </div>
+       
     );
 };
 
