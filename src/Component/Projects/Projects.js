@@ -64,7 +64,7 @@ const Projects = () => {
 
            <div style={{display: "flex", flexDirection: "row"}} >
 
-           <div style={{}}>
+           <div>
            <img width="55%" src="https://i.ibb.co/3hNLqzj/health-11.png" alt="health"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
