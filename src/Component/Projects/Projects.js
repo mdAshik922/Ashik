@@ -15,7 +15,7 @@ const Projects = () => {
 
 <div style={{display: "flex", flexDirection: "row"}} >
 
-<div>
+<div className="project">
             <img width="55%" src="https://i.ibb.co/Zg8Qrrf/luxury-4.png" alt="luxury-room"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group"><Link to="https://book-haven-client.web.app/"
@@ -26,7 +26,7 @@ const Projects = () => {
             className="btn btn-sm btn-success">GitHub-Server</Link>
             </div></div>  </div>
           
-           <div>
+           <div className="project">
            <img width="55%" src="https://i.ibb.co/V9gMbdH/Screenshot-4.png" alt="summer-camp"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -41,7 +41,7 @@ const Projects = () => {
 
         <div style={{display: "flex", flexDirection: "row", marginTop: "2%"}}>
             
-           <div>
+           <div className="project">
            <img width="55%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -52,7 +52,7 @@ const Projects = () => {
             </div></div></div>
            
 
-           <div style={{marginTop: "2%"}}>
+           <div className="project" style={{marginTop: "2%"}}>
            <img width="55%" src="https://i.ibb.co/Yf2NtW2/Screenshot-10.png" alt="study"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -65,7 +65,7 @@ const Projects = () => {
 
            <div style={{display: "flex", flexDirection: "row"}} >
 
-           <div>
+           <div className="project">
            <img width="55%" src="https://i.ibb.co/3hNLqzj/health-11.png" alt="health"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -75,7 +75,7 @@ const Projects = () => {
             className="btn btn-sm btn-success">GitHub</Link>
            </div></div></div>
 
-           <div style={{marginTop: "2%"}}>
+           <div className="project" style={{marginTop: "2%"}}>
            <img width="55%" src="https://i.ibb.co/zN9jjNx/Screenshot-6.png" alt="Brand-store"/>
             <div class="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
