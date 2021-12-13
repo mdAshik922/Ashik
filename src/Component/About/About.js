@@ -1,4 +1,5 @@
 import React from 'react';
+import Service from '../Service/Service';
 
 const About = () => {
     return (
@@ -56,7 +57,7 @@ const About = () => {
         </div>
 
 
-
+<Service></Service>
         
         </div>
     );

@@ -1,0 +1,4 @@
+.service{
+    display: grid;
+    grid-template-rows: repeat(3);
+}
