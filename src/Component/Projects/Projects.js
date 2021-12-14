@@ -1,10 +1,73 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Projects.css';
 
 const Projects = () => {
+
+    const luxuryProps = {
+        href:"https://book-haven-client.web.app/",
+         target:"_blank"
+      };
+
+      const luxuryGithubClient = {
+        href:"https://github.com/mdAshik922/luxury_room_client_site",
+         target:"_blank"
+      };
+
+      const luxuryGithubServerSide = {
+        href:"https://github.com/mdAshik922/luxury_server_site",
+         target:"_blank"
+      };
+
+      const summerCampLiveSite = {
+        href:"capming-4c267.web.app",
+         target:"_blank"
+      };
+
+      const summerCampGithubClientSite = {
+        href:"https://github.com/mdAshik922/summer_camp",
+         target:"_blank"
+      };
+
+      const summerCampGithubServerSite = {
+        href:"https://github.com/mdAshik922/summer_camp_server",
+         target:"_blank"
+      };
+      const macBookProLiveSite = {
+        href:"https://mac-book-pro-0e5fd4.netlify.app",
+         target:"_blank"
+      };
+      const macBookProGithub = {
+        href:"https://github.com/mdAshik922/iMac",
+         target:"_blank"
+      };
+      const studyLiveSite = {
+        href:"https://gracious-austin-dbf746.netlify.app",
+         target:"_blank"
+      };
+      const studyGithub = {
+        href:"https://github.com/mrakib007/book-haven-client",
+         target:"_blank"
+      };
+      const healthLiveSite = {
+        href:"https://quizzical-swartz-c4206c.netlify.app",
+         target:"_blank"
+      };
+      const healthGithub = {
+        href:"https://github.com/mdAshik922/Hospital",
+         target:"_blank"
+      };
+      const brandShopLiveLink = {
+        href:"https://compassionate-rosalind-a8fe71.netlify.app",
+         target:"_blank"
+      };
+      const brandShopGithub = {
+        href:"https://github.com/mdAshik922/Brand-Shope",
+         target:"_blank"
+      };
+
+
     return (
-        <div id="projects" style={{marginLeft: "15%", marginTop: "10%"}}>
+        <div id="projects" style={{marginLeft: "5%", marginTop: "10%"}}>
  <h2 style={{color: "white", marginLeft: "20%", marginBottom: "4%",
   fontSize: "4rem", fontWeight: "bolder"}}
  >Here Are Some of </h2>
@@ -13,79 +76,82 @@ const Projects = () => {
   marginLeft: "20%",  fontSize: "4rem", fontWeight: "bolder"}}
  >My Projects</h2>
 
-<div style={{display: "flex", flexDirection: "row"}} >
+<div className="container mt-5">
+               <div className="row">
 
-<div className="project">
+
+<div className="col-sm-4 project">
             <img width="55%" src="https://i.ibb.co/Zg8Qrrf/luxury-4.png" alt="luxury-room"/>
             <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group"><Link to="https://book-haven-client.web.app/"
-             target="_bank" className="btn btn-sm btn-success">Live Site</Link>
-             <Link to="https://github.com/mdAshik922/luxury_room_client_site" target="_blank" 
-            className="btn btn-sm btn-success">GitHub-Client</Link>
-             <Link to="https://github.com/mdAshik922/luxury_server_site" target="_blank" 
-            className="btn btn-sm btn-success">GitHub-Server</Link>
+                <div className="btn-group"><a {...luxuryProps} rel="noreferrer"
+             className="btn btn-sm btn-success">Live Site</a>
+
+             <a {...luxuryGithubClient} rel="noreferrer"  
+            className="btn btn-sm btn-success">GitHub-Client</a>
+
+             <a {...luxuryGithubServerSide}  rel="noreferrer"
+            className="btn btn-sm btn-success">GitHub-Server</a>
             </div></div>  </div>
           
-           <div className="project">
+           <div className="col-sm-4  project">
            <img width="55%" src="https://i.ibb.co/V9gMbdH/Screenshot-4.png" alt="summer-camp"/>
             <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to="https://unruffled-stonebraker-10075c.netlify.app"
-             target="_bank" className="btn btn-sm btn-success">Live Site</Link>
-             <Link to="https://github.com/mdAshik922/summer_camp" target="_blank" 
-            className="btn btn-sm btn-success">GitHub-Client</Link>
-            <Link to="https://github.com/mdAshik922/summer_camp_server" target="_blank" 
-            className="btn btn-sm btn-success">GitHub-Server</Link></div></div>
+                <a {...summerCampLiveSite} rel="noreferrer"
+            className="btn btn-sm btn-success">Live Site</a>
+             <a  {...summerCampGithubClientSite} rel="noreferrer"
+            className="btn btn-sm btn-success">GitHub-Client</a>
+            <a {...summerCampGithubServerSite} rel="noreferrer"
+            className="btn btn-sm btn-success">GitHub-Server</a></div></div>
            </div>
-        </div>
+      
 
-        <div style={{display: "flex", flexDirection: "row", marginTop: "2%"}}>
+        
             
-           <div className="project">
+           <div className="col-sm-4 mt-2 project">
            <img width="55%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
             <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to="https://mac-book-pro-0e5fd4.netlify.app"
-             target="_bank" className="btn btn-sm btn-success">Live Site</Link>
-             <Link to="https://github.com/mdAshik922/iMac" target="_blank" 
-            className="btn btn-sm btn-success">GitHub</Link>
+                <a {...macBookProLiveSite} rel="noreferrer"
+              className="btn btn-sm btn-success">Live Site</a>
+             <a  {...macBookProGithub} rel="noreferrer"
+            className="btn btn-sm btn-success">GitHub</a>
             </div></div></div>
            
 
-           <div className="project" style={{marginTop: "2%"}}>
+           <div className="col-sm-4 mt-2 project">
            <img width="55%" src="https://i.ibb.co/Yf2NtW2/Screenshot-10.png" alt="study"/>
             <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to="https://gracious-austin-dbf746.netlify.app"
-             target="_bank" className="btn btn-sm btn-success">Live Site</Link>
-             <Link to="https://github.com/mrakib007/book-haven-client" target="_blank" 
-            className="btn btn-sm btn-success">GitHub</Link>
+                <a  {...studyLiveSite} rel="noreferrer"  className="btn btn-sm btn-success">Live Site</a>
+             <a {...studyGithub} rel="noreferrer" 
+            className="btn btn-sm btn-success">GitHub</a>
            </div></div> </div>
-           </div>
+         
 
-           <div style={{display: "flex", flexDirection: "row"}} >
+         
 
-           <div className="project">
+           <div className="col-sm-4 mt-2 project">
            <img width="55%" src="https://i.ibb.co/3hNLqzj/health-11.png" alt="health"/>
             <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to="https://quizzical-swartz-c4206c.netlify.app"
-             target="_bank" className="btn btn-sm btn-success">Live Site</Link>
-             <Link to="https://github.com/mdAshik922/Hospital" target="_blank" 
-            className="btn btn-sm btn-success">GitHub</Link>
+                <a {...healthLiveSite} rel="noreferrer"   className="btn btn-sm btn-success">Live Site</a>
+             <a {...healthGithub} rel="noreferrer" 
+            className="btn btn-sm btn-success">GitHub</a>
            </div></div></div>
 
-           <div className="project" style={{marginTop: "2%"}}>
+           <div className="col-sm-4 mt-2 project">
            <img width="55%" src="https://i.ibb.co/zN9jjNx/Screenshot-6.png" alt="Brand-store"/>
             <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to="https://compassionate-rosalind-a8fe71.netlify.app"
-             target="_bank" className="btn btn-sm btn-success">Live Site</Link>
-             <Link to="https://github.com/mdAshik922/Brand-Shope" target="_blank" 
-            className="btn btn-sm btn-success">GitHub</Link>
+                <a {...brandShopLiveLink} rel="noreferrer"  className="btn btn-sm btn-success">Live Site</a>
+             <a {...brandShopGithub} rel="noreferrer" 
+            className="btn btn-sm btn-success">GitHub</a>
             </div></div> </div>
-            </div>
+           
 
+            </div>
+            </div>
         </div>
     );
 };
