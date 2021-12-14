@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './contact.css';
 const Contact = () => {
@@ -21,9 +22,11 @@ const Contact = () => {
 </form>
 
        </div>
+       <Link to="/home#home"><button type="button" className="btn btn-sm btn-success mt-2 " style={{marginLeft: "90%", fontSize: "2rem"}}><i className="far fa-arrow-alt-circle-up"></i></button></Link>
       <div>
      <h4 style={{color: "white", textAlign: 'center', marginTop: "3%"}}>Copyright &copy;2021 All Rights Reserved</h4>
       </div>
+     
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div id="home" style={{backgroundColor: "black"}}>
             <div className="home" style={{display: "flex", flexDirection: "row"}}>
-                <div style={{marginLeft: "3%", color: "white",  marginTop: "5%"}}>
+                <div style={{marginLeft: "3%", color: "white",  marginTop: "10%"}}>
                     <h3>Hello,I'm</h3>
                   
 <h2 >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
@@ -28,7 +28,7 @@ const Home = () => {
                     <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px'}} type=''>
                          <i className="far fa-file"></i> Resume</button></a>
                 </div>
-                <div>
+                <div style={{ marginTop: "6%"}}>
                     <img width={"65%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                
                 </div>
@@ -39,6 +39,7 @@ const Home = () => {
             <Projects></Projects>
             <Blogs></Blogs>
             <Contact></Contact>
+       
         </div>
     );
 };
