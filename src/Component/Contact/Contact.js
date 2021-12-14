@@ -17,12 +17,12 @@ const Contact = () => {
      <br/>
      <textarea style={{width: "75%",marginLeft: "10%", paddingLeft: "1%" }} name="message" id="" cols="30" rows="10" placeholder="Message"></textarea >
      <br/>
-     {/* <input type="hidden" name="_captcha" value="false" /> */}
+     <input type="hidden" name="_captcha" value="false" />
      <button style={{color: "blue", width: "35%", marginTop: "10px", marginLeft: "20%", marginBottom: "5%" , backgroundColor: "red", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px'}} type="submit">Send<i className="far fa-paper-plane"></i></button>
 </form>
 
        </div>
-       <Link to="/home#home"><button type="button" className="btn btn-sm btn-success mt-2 " style={{marginLeft: "90%", fontSize: "2rem"}}><i className="far fa-arrow-alt-circle-up"></i></button></Link>
+     
       <div>
      <h4 style={{color: "white", textAlign: 'center', marginTop: "3%"}}>Copyright &copy;2021 All Rights Reserved</h4>
       </div>
