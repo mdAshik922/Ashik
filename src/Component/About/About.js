@@ -3,7 +3,7 @@ import Service from '../Service/Service';
 
 const About = () => {
     return (
-        <div id="about" style={{marginTop: "10%", marginLeft: "15%"}}>
+        <div id="about" style={{marginTop: "5%", marginLeft: "15%"}}>
            <div>
            <h2 style={{color: "white", marginLeft: "30%",
             marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
