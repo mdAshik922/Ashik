@@ -25,8 +25,8 @@ const Home = () => {
                      I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
                      quick learner, team player. Currently focused on expanding my knowledge about
                      developing high performing websites and get hired.</strong></p>
-                    <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px'}} type=''>
-                         <i className="far fa-file"></i> Resume</button></a>
+                    <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
+                    <i className="fas fa-file-download"></i>Resume</button></a>
                
                          <SocialLink></SocialLink>
                 </div>
