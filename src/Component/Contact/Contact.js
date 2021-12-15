@@ -5,9 +5,9 @@ import './contact.css';
 const Contact = () => {
     return (
         <div id="contact" style={{marginTop: "5%"}} >
-            <h2 style={{color: "white", textAling: "center", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>Contact now</h2>
+            <h2 style={{color: "white", textAlign: "center", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>Contact now</h2>
        
-       <div id="contact-form" style={{}} >
+       <div id="contact-form" >
        <form action="https://formsubmit.co/md.ashik0005723@gmail.com" method="POST">
      <input style={{width: "65%", marginLeft: "10%", marginTop: "5%" , paddingLeft: "1%" }} placeholder="Enter your name" type="text" name="name" required />
      <br/>
