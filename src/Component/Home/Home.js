@@ -15,10 +15,10 @@ const Home = () => {
     return (
         <div id="home" style={{backgroundColor: "black"}}>
             <div className="home" style={{display: "flex", flexDirection: "row"}}>
-                <div style={{marginLeft: "3%", color: "white",  marginTop: "10%"}}>
-                    <h3>Hello,I'm</h3>
+                <div style={{marginLeft: "3%", color: "white",  marginTop: "20%"}}>
+                    <h3 style={{textAlign: "center", fontWeight: "bold"}}>Hi There, I'm &#9995;</h3>
                   
-<h2 >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
+<h2 styles={{fontWeight: "bolder"}} >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
       
                     <p><strong>
                     I am a Web Developer and mainly focused on frontend.
@@ -27,9 +27,11 @@ const Home = () => {
                      developing high performing websites and get hired.</strong></p>
                     <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px'}} type=''>
                          <i className="far fa-file"></i> Resume</button></a>
+               
+                         <SocialLink></SocialLink>
                 </div>
             
-                <SocialLink></SocialLink>
+          
             </div>
          
             <About></About>
