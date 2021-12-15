@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div id="about" style={{marginTop: "5%", marginLeft: "15%"}}>
            <div>
-           <h2 style={{color: "white", marginLeft: "30%",
+           <h2 style={{color: "white", textAlign: "center",
             marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
             
             <p style={{color: "white"}}><strong>I am a Web Developer mainly

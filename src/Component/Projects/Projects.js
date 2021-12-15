@@ -18,6 +18,20 @@ const Projects = () => {
         href:"https://github.com/mdAshik922/luxury_server_site",
          target:"_blank"
       };
+    const bicycleProps = {
+        href:"https://admiring-goldwasser-abd61f.netlify.app",
+         target:"_blank"
+      };
+
+      const bicycleGithubClient = {
+        href:"https://github.com/mdAshik922/niche-bicycle-client-side",
+         target:"_blank"
+      };
+
+      const bicycleGithubServerSide = {
+        href:"https://github.com/mdAshik922/bicycle-server",
+         target:"_blank"
+      };
 
       const summerCampLiveSite = {
         href:"capming-4c267.web.app",
@@ -68,13 +82,13 @@ const Projects = () => {
 
 
     return (
-        <div id="projects" style={{marginLeft: "5%", marginTop: "10%"}}>
- <h2 style={{color: "white", marginLeft: "20%", marginBottom: "4%",
+        <div id="projects" style={{ marginTop: "10%"}}>
+ <h2 style={{color: "white", textAlign: "center", marginBottom: "4%",
   fontSize: "4rem", fontWeight: "bolder"}}
  >Here Are Some of </h2>
 
- <h2 style={{color: "white", marginTop: "-7vh", marginBottom: "4%",
-  marginLeft: "20%",  fontSize: "4rem", fontWeight: "bolder"}}
+ <h2 style={{color: "white", marginTop: "1%", marginBottom: "4%",
+  textAlign: "center",  fontSize: "4rem", fontWeight: "bolder"}}
  >My Projects</h2>
 
 <div className="container mt-5">
@@ -91,6 +105,21 @@ const Projects = () => {
        className="btn btn-success">GitHub-Client</a>
 
         <a {...luxuryGithubServerSide}  rel="noreferrer"
+       className="btn btn-success">GitHub-Server</a>
+       </div>
+                  
+                </div>
+
+                <div className="col-sm-4 project" style={{color: "white"}}>                 
+                <img width="100%" src="https://i.ibb.co/wCXxhN8/Screenshot-5.png" alt="bicycle"/>
+           
+           <div className="btn-group mt-2 d-flex"><a {...bicycleProps} rel="noreferrer"
+        className="btn btn-success">Live Site</a>
+
+        <a {...bicycleGithubClient} rel="noreferrer"  
+       className="btn btn-success">GitHub-Client</a>
+
+        <a {...bicycleGithubServerSide}  rel="noreferrer"
        className="btn btn-success">GitHub-Server</a>
        </div>
                   
