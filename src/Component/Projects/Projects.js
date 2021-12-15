@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 
+
 const Projects = () => {
 
     const luxuryProps = {
@@ -78,79 +79,76 @@ const Projects = () => {
 
 <div className="container mt-5">
                <div className="row">
-
-
-<div className="col-sm-4 project">
-            <img width="100%" src="https://i.ibb.co/Zg8Qrrf/luxury-4.png" alt="luxury-room"/>
+               
+               
+                <div className="col-sm-4 project" style={{color: "white"}}>                 
+                <img width="100%" src="https://i.ibb.co/Zg8Qrrf/luxury-4.png" alt="luxury-room"/>
            
-                <div className="btn-group mt-2"><a {...luxuryProps} rel="noreferrer"
-             className="btn btn-success">Live Site</a>
+           <div className="btn-group mt-2 d-flex"><a {...luxuryProps} rel="noreferrer"
+        className="btn btn-success">Live Site</a>
 
-             <a {...luxuryGithubClient} rel="noreferrer"  
-            className="btn btn-success">GitHub-Client</a>
+        <a {...luxuryGithubClient} rel="noreferrer"  
+       className="btn btn-success">GitHub-Client</a>
 
-             <a {...luxuryGithubServerSide}  rel="noreferrer"
-            className="btn btn-success">GitHub-Server</a>
-            </div></div> 
-          
-           <div className="col-sm-4  project">
-           <img width="100%" src="https://i.ibb.co/V9gMbdH/Screenshot-4.png" alt="summer-camp"/>
+        <a {...luxuryGithubServerSide}  rel="noreferrer"
+       className="btn btn-success">GitHub-Server</a>
+       </div>
+                  
+                </div>
+
+                <div className="col-sm-4 project" style={{color: "white"}}>
+                <img width="100%" src="https://i.ibb.co/V9gMbdH/Screenshot-4.png" alt="summer-camp"/>
          
-                <div className="btn-group mt-2">
+                <div className="btn-group mt-2 d-flex">
                 <a {...summerCampLiveSite} rel="noreferrer"
             className="btn btn-sm btn-success">Live Site</a>
              <a  {...summerCampGithubClientSite} rel="noreferrer"
             className="btn btn-success">GitHub-Client</a>
             <a {...summerCampGithubServerSite} rel="noreferrer"
             className="btn btn-success">GitHub-Server</a></div>
-           </div>
-      
-
-        
-            
-           <div className="col-sm-4 mt-4 project">
-           <img width="100%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
+                </div>
+                <div className="col-sm-4 project" style={{color: "white"}}>
+                <img width="100%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
            
-                <div className="btn-group mt-2">
+                <div className="btn-group mt-2 ">
                 <a {...macBookProLiveSite} rel="noreferrer"
               className="btn  btn-success">Live Site</a>
              <a  {...macBookProGithub} rel="noreferrer"
             className="btn btn-success">GitHub</a>
-            </div></div>
-           
+            </div>
+                </div>
 
-           <div className="col-sm-4 mt-4 project">
+                <div className="col-sm-4 mt-4 project" style={{color: "white"}}>
+               
            <img width="100%" src="https://i.ibb.co/Yf2NtW2/Screenshot-10.png" alt="study"/>
            
                 <div className="btn-group mt-2">
                 <a  {...studyLiveSite} rel="noreferrer"  className="btn  btn-success">Live Site</a>
              <a {...studyGithub} rel="noreferrer" 
             className="btn  btn-success">GitHub</a>
-           </div></div> 
-         
+           </div>
+                </div>
 
-         
-
-           <div className="col-sm-4 mt-4 project">
-           <img width="100%" src="https://i.ibb.co/3hNLqzj/health-11.png" alt="health"/>
-           
+                <div className="col-sm-4 mt-4 project" style={{color: "white"}}>
+                <img width="100%" src="https://i.ibb.co/3hNLqzj/health-11.png" alt="health"/>
+                  
                 <div className="btn-group mt-2">
                 <a {...healthLiveSite} rel="noreferrer"   className="btn  btn-success">Live Site</a>
              <a {...healthGithub} rel="noreferrer" 
             className="btn  btn-success">GitHub</a>
-           </div></div>
+           </div>
+                </div>
 
-           <div className="col-sm-4 mt-4 project">
-           <img width="100%" src="https://i.ibb.co/zN9jjNx/Screenshot-6.png" alt="Brand-store"/>
-         
-                <div className="btn-group mt-2">
+                <div className="col-sm-4 mt-4 project" style={{color: "white"}}>
+                <img width="100%" src="https://i.ibb.co/zN9jjNx/Screenshot-6.png" alt="Brand-store"/>
+                  
+                <div className="btn-group mt-2 ">
                 <a {...brandShopLiveLink} rel="noreferrer"  className="btn btn-success">Live Site</a>
              <a {...brandShopGithub} rel="noreferrer" 
             className="btn btn-success">GitHub</a>
-            </div></div> 
-           
-
             </div>
+                </div>
+               </div>
             </div>
         </div>
     );

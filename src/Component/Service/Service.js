@@ -19,6 +19,7 @@ const Service = () => {
                     of but the majority have suffered alteration
                      in some form.
                     </p>
+                    
                 </div>
                
                 <div className="col-sm-4" style={{color: "white"}}>                 
@@ -29,6 +30,7 @@ const Service = () => {
                     I can design responsive webpages.
                     It will be SEO optimized and hand-coded.
                     </p>
+                  
                 </div>
 
                 <div className="col-sm-4" style={{color: "white"}}>
