@@ -28,10 +28,7 @@ const Home = () => {
                     <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px'}} type=''>
                          <i className="far fa-file"></i> Resume</button></a>
                 </div>
-                <div id="home-img" style={{ marginTop: "15%"}}>
-                    <img id="ashik" width={"65%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
-               
-                </div>
+            
                 <SocialLink></SocialLink>
             </div>
          

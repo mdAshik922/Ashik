@@ -1,19 +1,28 @@
 import React from 'react';
 import Service from '../Service/Service';
+import './About.css'
 
 const About = () => {
     return (
-        <div id="about" style={{marginTop: "5%", marginLeft: "15%"}}>
+        <div id="about" style={{marginTop: "5%", marginLeft: "3%"}}>
            <div>
            <h2 style={{color: "white", textAlign: "center",
-            marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
-            
-            <p style={{color: "white"}}><strong>I am a Web Developer mainly
-                 focused on frontend.</strong></p><p style={{color: "white", marginTop: "-10px"}}><strong>
-                 I am a JavaScript Lover, quick learner, team player.</strong></p>
+            fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
            </div>
-        
-        <div>
+
+         <div style={{ display: "flex", flexDirection: "row"}}>
+         <div id="home-img" >
+                    <img id="ashik" style={{ marginTop: "-20%", marginRight:"2%"}} width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
+               
+                </div>
+           <div className="about" style={{marginLeft:"4px", marginRight:"4px"}}><p style={{color: "white", textAlign: "center"}}><strong>I am a Web Developer mainly
+                 focused on frontend.</strong></p><p style={{color: "white", textAlign: "center", marginTop: "-10px"}}><strong>
+                 I'm a JavaScript Lover, quick learner, team player. I'm studying BGIFT in Computer Technology. I love creating projects and solving problems. 
+I look forward to meeting new people and finding new opportunities to solve problems.</strong></p>
+</div>
+         </div>
+
+        <div style={{marginTop: "5%"}}>
             <h2 style={{color: "#29f1c3"}}>My skills :</h2>
             <h3 style={{color: "#fafad2"}} >I am good at :</h3>
             <button type="button" className="btn btn-sm btn-success m-2">Javascript</button>
