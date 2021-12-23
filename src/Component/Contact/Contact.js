@@ -24,7 +24,7 @@ const Contact = () => {
        </div>
      
       <div>
-     <h4 style={{color: "white", textAlign: 'center', marginTop: "3%"}}>Copyright &copy;2021 All Rights Reserved</h4>
+     <p style={{color: "white", textAlign: 'center', marginTop: "3%"}}> &copy;2021 <span style={{fontWeight: "bolder"}}>Ashik</span>. All Rights Reserved</p>
       </div>
      
         </div>
