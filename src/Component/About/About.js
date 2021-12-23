@@ -20,7 +20,7 @@ const About = () => {
                
                 </div>
 
-           <div className="about col-sm-9" ><p style={{color: "white", textAlign: "center"}}><strong>I am a Web Developer mainly
+           <div className="about col-sm-9" ><p style={{color: "white", textAlign: "center"}}><strong>I'm a Junior Web Developer mainly
                  focused on frontend.</strong></p>
                 
                  <p style={{color: "white", textAlign: "center", marginTop: "-2%"}}><strong>
