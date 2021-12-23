@@ -17,7 +17,7 @@ const About = () => {
                     <img id="ashik" width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                
                 </div>
-           <div className="about col-sm-7" style={{}}><p style={{color: "white", textAlign: "center"}}><strong>I am a Web Developer mainly
+           <div className="about col-sm-7" ><p style={{color: "white", textAlign: "center"}}><strong>I am a Web Developer mainly
                  focused on frontend.</strong></p><p style={{color: "white", textAlign: "center",}}><strong>
                  I'm a JavaScript Lover, quick learner, team player. I'm studying BGIFT in Computer Technology. I love creating projects and solving problems. 
 I look forward to meeting new people and finding new opportunities to solve problems. Learning everyday, currently learning to master MERN stack <span style={{ color: "lightGreen"}}>&#127919;</span></strong></p>
