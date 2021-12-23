@@ -9,6 +9,7 @@ const About = () => {
            <h2 style={{color: "white", textAlign: "center",
             fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
            </div>
+           {/* display: "flex", flexDirection: "row" */}
 
          <div style={{}}>
          <div id="home-img" >
