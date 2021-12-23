@@ -14,7 +14,7 @@ const About = () => {
            <div className="container mt-5">
            <div class="row">
          <div id="home-img" className="col-sm-5" >
-                    <img id="ashik" style={{ marginTop: "-20%", marginRight:"2%"}} width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
+                    <img id="ashik" style={{  marginRight:"2%"}} width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                
                 </div>
            <div className="about col-sm-7" style={{}}><p style={{color: "white", textAlign: "center"}}><strong>I am a Web Developer mainly
