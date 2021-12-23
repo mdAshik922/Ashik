@@ -12,7 +12,7 @@ const About = () => {
            {/* display: "flex", flexDirection: "row" */}
 
            <div className="container mt-5">
-
+           <div class="row">
          <div id="home-img" className="col-sm-5" >
                     <img id="ashik" style={{ marginTop: "-20%", marginRight:"2%"}} width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                
@@ -21,6 +21,7 @@ const About = () => {
                  focused on frontend.</strong></p><p style={{color: "white", textAlign: "center", marginTop: "-10px"}}><strong>
                  I'm a JavaScript Lover, quick learner, team player. I'm studying BGIFT in Computer Technology. I love creating projects and solving problems. 
 I look forward to meeting new people and finding new opportunities to solve problems. Learning everyday, currently learning to master MERN stack <span style={{ color: "lightGreen"}}>&#127919;</span></strong></p>
+</div>
 </div>
          </div>
 
