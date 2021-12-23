@@ -10,7 +10,7 @@ const About = () => {
             fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
            </div>
 
-         <div style={{ display: "flex", flexDirection: "row"}}>
+         <div style={{}}>
          <div id="home-img" >
                     <img id="ashik" style={{ marginTop: "-20%", marginRight:"2%"}} width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                
