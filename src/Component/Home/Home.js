@@ -21,7 +21,7 @@ const Home = () => {
 <h2 styles={{fontWeight: "bolder"}} >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
       
                     <p><strong>
-                    I am a Web Developer and mainly focused on frontend.
+                    I'm a Junior Web Developer and mainly focused on frontend.
                      I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
                      quick learner, team player. Currently focused on expanding my knowledge about
                      developing high performing websites and get hired.</strong></p>
