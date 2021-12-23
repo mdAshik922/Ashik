@@ -11,7 +11,7 @@ const About = () => {
            </div>
            {/* display: "flex", flexDirection: "row" */}
 
-           <div class="container mt-5">
+           <div className="container mt-5">
 
          <div id="home-img" className="col-sm-5" >
                     <img id="ashik" style={{ marginTop: "-20%", marginRight:"2%"}} width={"100%"} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
