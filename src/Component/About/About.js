@@ -17,7 +17,7 @@ const About = () => {
            <div class="row">
          <div className="col-sm-3" >
              
-                    <img id="ashik" width={"80%"} style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
+                    <img  width={"80%"} style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                
                 </div>
 
