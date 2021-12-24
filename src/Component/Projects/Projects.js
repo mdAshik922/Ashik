@@ -136,7 +136,8 @@ const Projects = () => {
             <a {...summerCampGithubServerSite} rel="noreferrer"
             className="btn btn-success">GitHub-Server</a></div>
                 </div>
-                <div className="col-sm-4 project" style={{color: "white"}}>
+
+                <div className="col-sm-4 mt-4 project" style={{color: "white"}}>
                 <img width="100%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
            
                 <div className="btn-group mt-2 ">
