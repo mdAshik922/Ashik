@@ -31,7 +31,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
 </div>
          </div>
 
-        <div style={{marginTop: "5%"}}>
+        <div style={{marginTop: "5%", marginLeft:"2%"}}>
             <h2 style={{color: "#29f1c3"}}>My skills :</h2>
             <h3 style={{color: "#fafad2"}} >I am good at :</h3>
             <button type="button" className="btn btn-sm btn-success m-2">Javascript</button>
