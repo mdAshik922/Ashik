@@ -9,7 +9,7 @@ const Contact = () => {
        
        <div id="contact-form" >
        <form action="https://formsubmit.co/md.ashik0005723@gmail.com" method="POST">
-     <input style={{width: "65%", marginLeft: "10%", marginTop: "5%" , paddingLeft: "1%" }} placeholder="Enter your name" type="text" name="name" required />
+     <input style={{ width: "65%", marginLeft: "10%", marginTop: "5%" , paddingLeft: "1%" }} placeholder="Enter your name" type="text" name="name" required />
      <br/>
      <br/>
      <input style={{ width: "65%", marginLeft: "10%", paddingLeft: "1%" }} type="email" name="email" placeholder="Email Address" required />
