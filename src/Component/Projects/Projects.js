@@ -141,7 +141,7 @@ const Projects = () => {
                 <img width="100%" src="https://i.ibb.co/Bq5HfFm/Screenshot-5.png" alt="mac-book-pro"/>
            
                 <div className="btn-group mt-2 ">
-                <a {...macBookProLiveSite} rel="noreferrer"
+                <a  rel="noreferrer"
               className="btn  btn-success">Live Site</a>
              <a  {...macBookProGithub} rel="noreferrer"
             className="btn btn-success">GitHub</a>
