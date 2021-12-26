@@ -17,7 +17,7 @@ const Contact = () => {
      <br/>
      <textarea style={{width: "75%", marginLeft: "10%", paddingLeft: "1%" }} name="message" id="" cols="30" rows="10" placeholder="Message"></textarea >
      <br/>
-     <input  name="_captcha" value="false" />
+     <input type="hidden" name="_captcha" value="false" />
      <button style={{color: "blue", width: "35%", marginTop: "10px", marginLeft: "20%", marginBottom: "5%" , backgroundColor: "red", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px'}} type="submit">Send<i className="far fa-paper-plane"></i></button>
 </form>
 
