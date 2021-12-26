@@ -12,7 +12,7 @@ const Contact = () => {
      <input style={{width: "65%", marginLeft: "10%", marginTop: "5%" , paddingLeft: "1%" }} placeholder="Enter your name" type="text" name="name" required />
      <br/>
      <br/>
-     <input style={{width: "65%", marginLeft: "10%", paddingLeft: "1%" }} type="email" name="email" placeholder="Email Address" required />
+     <input style={{width: "65%", marginLeft: "10%", }} type="email" name="email" placeholder="Email Address" required />
      <br/>
      <br/>
      <textarea style={{width: "75%", marginLeft: "10%", paddingLeft: "1%" }} name="message" id="" cols="30" rows="10" placeholder="Message"></textarea >
