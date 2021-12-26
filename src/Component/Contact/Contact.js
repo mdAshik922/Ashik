@@ -5,7 +5,7 @@ import './contact.css';
 const Contact = () => {
     return (
         <div id="contact" style={{marginTop: "5%"}} >
-            <h2 style={{color: "white", textAlign: "center", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>Contact now</h2>
+            <h2 style={{ textAlign: "center", marginBottom: "4%", fontSize: "4rem", fontWeight: "bolder"}}>Contact now</h2>
        
        <div id="contact-form" >
        <form action="https://formsubmit.co/md.ashik0005723@gmail.com" method="POST">
