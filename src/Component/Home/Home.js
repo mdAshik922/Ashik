@@ -21,21 +21,22 @@ const Home = () => {
                   
 <h2 styles={{fontWeight: "bolder"}} >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
       
-<Typewriter
+
+                    <p>
+                    I'm a <Typewriter
       options={{
         strings: [
-          "WEB DEVELOPER",
-          "MERN Stack Developer",
+          "Junior Web Developer",
+          "Mainly Focused On Front-End Development",
+          
 
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
       }}
-    />
-                    <p><strong>
-                    I'm a Junior Web Developer and mainly focused on frontend.
-                     I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
+    />  
+                     <strong>I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
                      quick learner, team player. Currently focused on expanding my knowledge about
                      developing high performing websites and get hired.</strong></p>
                     <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
