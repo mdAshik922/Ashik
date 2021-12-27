@@ -23,7 +23,8 @@ const Home = () => {
       
 
                     <p>
-                    I'm a <Typewriter
+                    I'm a <span>
+                    <Typewriter
       options={{
         strings: [
           "Junior Web Developer",
@@ -36,6 +37,7 @@ const Home = () => {
         deleteSpeed: 50,
       }}
     />  
+                    </span>
                      <strong>I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
                      quick learner, team player. Currently focused on expanding my knowledge about
                      developing high performing websites and get hired.</strong></p>
