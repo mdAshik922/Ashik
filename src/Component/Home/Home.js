@@ -15,20 +15,26 @@ const Home = () => {
       };
     return (
         <div id="home" style={{backgroundColor: "black"}}>
-            <div className="home" style={{display: "flex", flexDirection: "row"}}>
-                <div style={{marginLeft: "3%", color: "white",  marginTop: "20%"}}>
-                    <h3 style={{textAlign: "center", fontWeight: "bold",  color: "rgb(18 214 221)"}}>Hi There, I'm &#9995;</h3>
+            <div className="home" style={{}}>
+                <div style={{ color: "white",  marginTop: "10%"}}>
+                    <h3 style={{textAlign: "center", fontWeight: "bold",  color: "rgb(18 214 221)"}}>
+                        Hi There, I'm &#9995;</h3>
                   
-<h2 styles={{fontWeight: "bolder"}} >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
+<h2 styles={{fontWeight: "bolder"}} > 
+ <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce>
+ </h2>
       
 
                     <p>
-                    I'm a <span>
+                    <span style={{fontWeight: "bold", fontSize: "1.3rem"}}>
+                         I'm a </span>
+                         <span 
+                    style={{fontWeight: "bolder", fontSize: "2rem"}}>
                     <Typewriter
       options={{
         strings: [
           "Junior Web Developer",
-          "Mainly Focused On Front-End Development",
+          " JavaScript Lover",
           
 
         ],
@@ -38,11 +44,12 @@ const Home = () => {
       }}
     />  
                     </span>
-                     <strong>I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
-                     quick learner, team player. Currently focused on expanding my knowledge about
-                     developing high performing websites and get hired.</strong></p>
-                    <a  {...driveProps} rel="noreferrer"> <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
-                    <i className="fas fa-file-download"></i>Resume</button></a>
+                     </p> 
+
+                    <a  {...driveProps} rel="noreferrer">
+                         <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
+                    <i className="fas fa-file-download"></i>Resume</button>
+                    </a>
                
                     <Bounce bottom> <SocialLink></SocialLink></Bounce>
                 </div>
