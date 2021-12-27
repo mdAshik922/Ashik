@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import './Home.css';
 import SocialLink from './SocialLink';
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
     const driveProps = {
