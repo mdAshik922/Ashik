@@ -17,10 +17,22 @@ const Home = () => {
         <div id="home" style={{backgroundColor: "black"}}>
             <div className="home" style={{display: "flex", flexDirection: "row"}}>
                 <div style={{marginLeft: "3%", color: "white",  marginTop: "20%"}}>
-                    <h3 style={{textAlign: "center", fontWeight: "bold"}}>Hi There, I'm &#9995;</h3>
+                    <h3 style={{textAlign: "center", fontWeight: "bold",  color: "rgb(18 214 221)"}}>Hi There, I'm &#9995;</h3>
                   
 <h2 styles={{fontWeight: "bolder"}} >  <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce></h2>
       
+<Typewriter
+      options={{
+        strings: [
+          "WEB DEVELOPER",
+          "MERN Stack Developer",
+
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
                     <p><strong>
                     I'm a Junior Web Developer and mainly focused on frontend.
                      I am a JavaScript Lover,</strong></p>  <p style={{marginTop: "-2%"}}><strong>
