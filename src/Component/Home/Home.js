@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 import './Home.css';
 
 const Home = () => {
-  
+
     const driveProps = {
         href:"https://drive.google.com/file/d/1RotqzlKuHfN9mw_Nla2ZD3JEiPU2Pkmg/view?usp=sharing",
          target:"_blank"
@@ -25,10 +25,6 @@ const Home = () => {
  <h1 style={{fontSize: "2rem", fontWeight: "bolder"}}>
  <Bounce right cascade>    Md.Mahmudul Hassan Ashik </Bounce>
  </h1>
-
-
-                  
-                   
                          <span 
                     style={{fontWeight: "bolder", fontSize: "2rem", textAlign: "center"}}>
                     <Typewriter
