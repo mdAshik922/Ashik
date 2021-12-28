@@ -14,7 +14,7 @@ const Header = () => {
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#home">Home</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#about">About</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#projects">Projects</Nav.Link>
-      <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#blog">Blogs</Nav.Link>
+      <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#blog">Blog</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#contact">Contact</Nav.Link>
       
     </Nav>
