@@ -16,7 +16,7 @@ const Home = () => {
       };
     return (
         <div id="home">
-            <div  className="home" style={{}}>
+            <div  className="home" >
                 <div style={{ color: "white",  marginTop: "15%"}}>
                     <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem"}}>
                         Hi There, I'm &#9995;</h4>
@@ -32,8 +32,6 @@ const Home = () => {
         strings: [
           "Junior Web Developer",
           " JavaScript Lover",
-          
-
         ],
         autoStart: true,
         loop: true,
