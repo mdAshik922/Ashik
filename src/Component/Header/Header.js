@@ -1,14 +1,8 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
-
-  const medium = {
-    href:"https://medium.com/@md.ashik0005723",
-     target:"_blank"
-  };
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  fixed="top">
@@ -20,9 +14,7 @@ const Header = () => {
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#home">Home</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#about">About</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#projects">Projects</Nav.Link>
-       <Nav.Link  style={{textDecoration: "none", color: "white", fontSize: "1rem", fontWeight: "bolder"}}><Link to="https://medium.com/@md.ashik0005723"
-     target="_blank">Blogs</Link></Nav.Link>
-      
+      <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#blog">Blogs</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#contact">Contact</Nav.Link>
       
     </Nav>
