@@ -4,11 +4,12 @@ import About from '../About/About';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
-import './Home.css';
 import SocialLink from './SocialLink';
 import Typewriter from "typewriter-effect";
+import './Home.css';
 
 const Home = () => {
+  
     const driveProps = {
         href:"https://drive.google.com/file/d/1RotqzlKuHfN9mw_Nla2ZD3JEiPU2Pkmg/view?usp=sharing",
          target:"_blank"
