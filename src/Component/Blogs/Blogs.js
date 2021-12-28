@@ -11,7 +11,7 @@ const Blogs = () => {
         <div id="blog">
             <h2 style={{color: "white", textAlign: "center", marginTop: "4%", fontSize: "4rem", fontWeight: "bolder"}}>My Blog</h2>
 
-<div style={{marginLeft: "40%", marginTop: "3%"}}>
+<div style={{marginLeft: "35%", marginTop: "3%"}}>
 <a style={{textDecoration: "none"}} {...medium} rel="noreferrer">
 <img width="50%" src="https://i.ibb.co/qLSM1Fs/download.png" alt="blog"/>
 <h3 style={{color: "white"}}>Javascript for Beginner</h3>
