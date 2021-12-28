@@ -11,11 +11,11 @@ const Blogs = () => {
         <div id="blog">
             <h2 style={{color: "white", textAlign: "center", marginTop: "4%", fontSize: "4rem", fontWeight: "bolder"}}>My Blog</h2>
 
-<div>
+<div style={{marginLeft: "40%", marginTop: "3%"}}>
 <a style={{textDecoration: "none"}} {...medium} rel="noreferrer">
 <img width="50%" src="https://i.ibb.co/qLSM1Fs/download.png" alt="blog"/>
 <h3 style={{color: "white"}}>Javascript for Beginner</h3>
-<p style={{color: "blue"}}>...Learn more</p>
+<p style={{color: "#77E4D4"}}>...Learn more</p>
 </a>
 </div>
         </div>
