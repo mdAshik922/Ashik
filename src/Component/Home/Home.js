@@ -19,7 +19,7 @@ const Home = () => {
             <div  className="home" >
                 <div style={{ color: "white",  marginTop: "15%"}}>
                     <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem"}}>
-                        Hi There, I'm &#9995;</h4>
+                        Hi There &#9995;, I'm </h4>
                   
 
  <h1 style={{fontSize: "2rem", fontWeight: "bolder"}}>
