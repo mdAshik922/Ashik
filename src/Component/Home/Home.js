@@ -14,7 +14,7 @@ const Home = () => {
          target:"_blank"
       };
     return (
-        <div>
+        <div id="">
             <div  className="home" style={{}}>
                 <div style={{ color: "white",  marginTop: "15%"}}>
                     <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem"}}>
