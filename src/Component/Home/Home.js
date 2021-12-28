@@ -14,22 +14,22 @@ const Home = () => {
          target:"_blank"
       };
     return (
-        <div id="home" style={{backgroundColor: "black"}}>
-            <div className="home" style={{}}>
-                <div style={{ color: "white",  marginTop: "10%"}}>
-                    <h3 style={{textAlign: "center", fontWeight: "bold",  color: "rgb(18 214 221)"}}>
-                        Hi There, I'm &#9995;</h3>
+        <div>
+            <div  className="home" style={{}}>
+                <div style={{ color: "white",  marginTop: "15%"}}>
+                    <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem"}}>
+                        Hi There, I'm &#9995;</h4>
                   
-<h2 styles={{fontWeight: "bolder"}} > 
- <Bounce right cascade> Md.Mahmudul Hassan Ashik</Bounce>
- </h2>
-      
+
+ <h1 style={{fontSize: "2rem", fontWeight: "bolder"}}>
+ <Bounce right cascade>    Md.Mahmudul Hassan Ashik </Bounce>
+ </h1>
+
 
                     <p>
-                    <span style={{fontWeight: "bold", fontSize: "1.3rem"}}>
-                         I'm a </span>
+                   
                          <span 
-                    style={{fontWeight: "bolder", fontSize: "2rem"}}>
+                    style={{fontWeight: "bolder", fontSize: "2rem", textAlign: "center"}}>
                     <Typewriter
       options={{
         strings: [
