@@ -12,7 +12,7 @@ const Service = () => {
                <div className="row">
                <div className="col-sm-4" style={{color: "white"}}>
 
-               <img className="service-img" width="55px" style={{backgroundColor: "white"}} src={code} alt="code"/>
+               <img className="service-img" width="55px"  src={code} alt="code"/>
                     <h2 className="service-head-line">Web Design</h2>
                     <p style={{color: "white"}}>
                     There are many variations of passages 
@@ -34,8 +34,7 @@ const Service = () => {
                 </div>
 
                 <div className="col-sm-4" style={{color: "white"}}>
-                <img className="service-img" width="55px" style={{backgroundColor: "white",
-                 display: "block", marginLeft: "auto", marginRight: "auto"}} src={debug} alt="debug"/>
+                <img className="service-img" width="55px"  src={debug} alt="debug"/>
                   
                     <h2 className="service-head-line">Bugs fixing</h2>
                     <p>
