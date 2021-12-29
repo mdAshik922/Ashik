@@ -13,7 +13,7 @@ const Service = () => {
                <div className="col-sm-4" style={{color: "white"}}>
 
                <img width="55px" style={{backgroundColor: "white"}} src={code} alt="code"/>
-                    <h2>Web Design</h2>
+                    <h2 className="service-head-line">Web Design</h2>
                     <p style={{color: "white"}}>
                     There are many variations of passages 
                     of but the majority have suffered alteration
