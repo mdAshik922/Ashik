@@ -14,7 +14,7 @@ const Service = () => {
 
                <img className="service-img" width="55px"  src={code} alt="code"/>
                     <h2 className="service-head-line">Web Design</h2>
-                    <p style={{color: "white"}}>
+                    <p>
                     There are many variations of passages 
                     of but the majority have suffered alteration
                      in some form.
