@@ -18,6 +18,7 @@ const Home = () => {
         <div id="home">
             <div  className="home" >
                 <div style={{ color: "white",  marginTop: "15%"}}>
+                    <artical>
                     <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem"}}>
                         Hi There &#9995;, I'm </h4>
                   
@@ -44,6 +45,7 @@ const Home = () => {
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
                     <i className="fas fa-file-download"></i>Resume</button>
                     </a>
+                    </artical>
                
                     <Bounce bottom> <SocialLink></SocialLink></Bounce>
                 </div>

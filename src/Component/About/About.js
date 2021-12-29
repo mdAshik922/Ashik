@@ -16,10 +16,8 @@ const About = () => {
            <div className="container mt-5">
            <div className="row">
          <div className="col-sm-3" >
-             
-                    <img  width="80%" style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
-               
-                </div>
+                <img  width="80%" style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
+                   </div>
 
            <div className="about col-sm-9" >
               <article>
@@ -31,10 +29,10 @@ const About = () => {
                  I'm a JavaScript Lover, quick learner, team player. I'm studying BGIFT in Computer Technology. I love creating projects and solving problems. 
 I look forward to meeting new people and finding new opportunities to solve problems. Learning everyday, currently learning to master MERN stack <span style={{ color: "lightGreen"}}>&#127919;</span></strong></p>
               </article>
-</div>
-</div>
-         </div>
-
+               </div>
+        </div>
+    </div>
+    
         <div style={{marginTop: "5%", marginLeft:"2%"}}>
             <h2 style={{color: "#29f1c3"}}>My skills :</h2>
             <h3 style={{color: "#fafad2"}} >I am good at :</h3>
