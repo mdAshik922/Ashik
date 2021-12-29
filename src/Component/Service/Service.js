@@ -25,7 +25,7 @@ const Service = () => {
                 <div className="col-sm-4" style={{color: "white"}}>                 
               <img width="55px" src={responsive} alt="responsive"/>
 
-                    <h2 >Responsive Design</h2>
+                    <h2 className="service-head-line">Responsive Design</h2>
                     <p>
                     I can design responsive webpages.
                     It will be SEO optimized and hand-coded.
