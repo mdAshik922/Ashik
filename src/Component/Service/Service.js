@@ -34,7 +34,7 @@ const Service = () => {
                 </div>
 
                 <div className="col-sm-4" style={{color: "white"}}>
-                <img width="55px" style={{backgroundColor: "white",
+                <img className="service-img" width="55px" style={{backgroundColor: "white",
                  display: "block", marginLeft: "auto", marginRight: "auto"}} src={debug} alt="debug"/>
                   
                     <h2 className="service-head-line">Bugs fixing</h2>
