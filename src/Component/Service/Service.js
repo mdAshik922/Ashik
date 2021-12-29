@@ -25,7 +25,7 @@ const Service = () => {
                 <div className="col-sm-4" style={{color: "white"}}>                 
               <img width="55px" src={responsive} alt="responsive"/>
 
-                    <h2>Responsive Design</h2>
+                    <h2 >Responsive Design</h2>
                     <p>
                     I can design responsive webpages.
                     It will be SEO optimized and hand-coded.
@@ -34,9 +34,10 @@ const Service = () => {
                 </div>
 
                 <div className="col-sm-4" style={{color: "white"}}>
-                <img width="55px" style={{backgroundColor: "white"}} src={debug} alt="debug"/>
+                <img width="55px" style={{backgroundColor: "white",
+                 display: "block", marginLeft: "auto", marginRight: "auto"}} src={debug} alt="debug"/>
                   
-                    <h2>Bugs fixing</h2>
+                    <h2 className="service-head-line">Bugs fixing</h2>
                     <p>
                     I am expert in fixing bugs.
                      if your website have also problem 
