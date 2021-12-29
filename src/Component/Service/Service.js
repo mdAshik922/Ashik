@@ -12,7 +12,7 @@ const Service = () => {
                <div className="row">
                <div className="col-sm-4" style={{color: "white"}}>
 
-               <img className="service-img" width="55px"  src={code} alt="code"/>
+               <img className="service-img" width="55px" src={code} alt="code"/>
                     <h2 className="service-head-line">Web Design</h2>
                     <p>
                     There are many variations of passages 
@@ -34,13 +34,13 @@ const Service = () => {
                 </div>
 
                 <div className="col-sm-4" style={{color: "white"}}>
-                <img className="service-img" width="55px"  src={debug} alt="debug"/>
+                <img className="service-img" width="55px" src={debug} alt="debug"/>
                   
                     <h2 className="service-head-line">Bugs fixing</h2>
                     <p>
                     I am expert in fixing bugs.
                      if your website have also problem 
-                     such like that you may knock me.​
+                     such like that you may knock me.
                     </p>
                 </div>
                </div>
