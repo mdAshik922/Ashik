@@ -40,7 +40,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
             <button type="button" className="btn btn-sm btn-success m-2">Es6</button>
             <button type="button" className="btn btn-sm btn-success m-2">React.js</button>
             <button type="button" className="btn btn-sm btn-success m-2">React Router</button>
-            <button type="button" className="btn btn-sm btn-success m-2">html/css</button>
+            <button type="button" className="btn btn-sm btn-success m-2">html5/css3</button>
             <button type="button" className="btn btn-sm btn-success m-2">Bootstrap/React Bootstrap</button>
             <button type="button" className="btn btn-sm btn-success m-2">Tailwind css</button>
             <button type="button" className="btn btn-sm btn-success m-2">Material-UI</button>
