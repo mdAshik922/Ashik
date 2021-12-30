@@ -52,6 +52,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
             <button type="button" className="btn btn-sm btn-success m-2">Express.js</button>
             <button type="button" className="btn btn-sm btn-success m-2">MongoDB</button>
             <button type="button" className="btn btn-sm btn-success m-2">Firebase</button> 
+            <button type="button" className="btn btn-sm btn-success m-2"> JSON Web Token</button> 
             <button type="button" className="btn btn-sm btn-success m-2">payment gateway</button>
             
            
