@@ -24,7 +24,7 @@ const Home = () => {
                   
 
  <h1 style={{fontSize: "2rem", fontWeight: "bolder"}}>
- <Bounce right cascade> Md.Mahmudul Hassan Ashi </Bounce>
+ <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce>
  </h1>
                          <span 
                     style={{fontWeight: "bolder", fontSize: "2rem", textAlign: "center"}}>
