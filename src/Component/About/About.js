@@ -19,8 +19,8 @@ const About = () => {
                 <img  width="80%" style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
                    </div>
 
-           <div className="about col-sm-9" >
-              <article>
+          
+              <article className="about col-sm-9">
               <p style={{color: "white", textAlign: "center"}}>
                    <strong>I'm a Junior Web Developer mainly
                  focused on Front-end Web Development.</strong></p>
@@ -29,7 +29,7 @@ const About = () => {
                  I'm a JavaScript Lover, quick learner, team player. I'm studying BGIFT in Computer Technology. I love creating projects and solving problems. 
 I look forward to meeting new people and finding new opportunities to solve problems. Learning everyday, currently learning to master MERN stack <span style={{ color: "lightGreen"}}>&#127919;</span></strong></p>
               </article>
-               </div>
+              
         </div>
     </div>
     
