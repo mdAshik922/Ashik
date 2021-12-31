@@ -19,8 +19,7 @@ const SocialLink = () => {
 
     return (
         <div style={{ marginTop: "15%"}}>
-            <Roll top cascade>
- 
+            
              <div style={{textAlign: "end", marginRight: "5%"}}>
       <a {...githubProps} rel="noreferrer" >
           <i  style={{ color: "red", fontSize: "2rem"}} className="fab fa-github"></i>
@@ -33,7 +32,7 @@ const SocialLink = () => {
        <a {...facebookProps} rel="noreferrer">
            <i style={{ color: "red", fontSize: "2rem"}} className="fab fa-facebook"></i></a>
            </div>
-           </Roll>
+           
         </div>
     );
 };
