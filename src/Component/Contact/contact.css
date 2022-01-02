@@ -1,6 +1,15 @@
 #contact-form{
     
     border: 4px solid goldenrod;
- 
-    background-color: blueviolet;
+  background: rgb(117, 130, 245);
+  -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  
 }
+
+  #contact-form:hover {
+    background-color: green;
+    cursor: pointer;
+  }

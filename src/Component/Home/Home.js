@@ -19,11 +19,11 @@ const Home = () => {
             <div  className="home" >
                 <div style={{ color: "white",  marginTop: "15%"}}>
                     <article>
-                    <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem"}}>
+                    <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem", fontFamily: "monospace"}}>
                         Hi There &#9995;, I'm </h4>
                   
 
- <h1 style={{fontSize: "2rem", fontWeight: "bolder"}}>
+ <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
  <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce>
  </h1>
                          <span 
