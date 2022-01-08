@@ -8,8 +8,9 @@ const About = () => {
     return (
         <div id="about" style={{marginTop: "5%"}}>
            <div>
+           
            <h2 style={{color: "white", textAlign: "center",
-            fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
+            fontSize: "4rem", fontWeight: "bolder"}}><img width="15%" src="https://i.ibb.co/6P322QP/illustrator-1.png" alt=""/> About</h2>
            </div>
            
            <div className="container mt-5">
@@ -33,51 +34,46 @@ I look forward to meeting new people and finding new opportunities to solve prob
     </div>
     
         <article style={{marginTop: "5%", marginLeft:"2%"}}>
-            <h2 style={{color: "#29f1c3"}}>My skills :</h2>
-            <h3 style={{color: "#fafad2"}} >I am good at :</h3>
-            <button type="button" className="btn btn-sm btn-success m-2">Javascript</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Es6</button>
-            <button type="button" className="btn btn-sm btn-success m-2">React.js</button>
-            <button type="button" className="btn btn-sm btn-success m-2">React Router</button>
-            <button type="button" className="btn btn-sm btn-success m-2">html5/css3</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Bootstrap/React Bootstrap</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Tailwind css</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Material-UI</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Github</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Rest API</button>
-           
-            <h3 style={{color: "#fafad2"}} >Comfortable with :</h3>
-            <button type="button" className="btn btn-sm btn-success m-2">Node.js</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Express.js</button>
-            <button type="button" className="btn btn-sm btn-success m-2">MongoDB</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Firebase</button> 
-            <button type="button" className="btn btn-sm btn-success m-2"> JSON Web Token</button> 
-            <button type="button" className="btn btn-sm btn-success m-2">payment gateway</button>
-            
-           
-            <h3 style={{color: "#fafad2"}} >Familiar with :</h3>
-            <button type="button" className="btn btn-sm btn-success m-2">Redux</button>
-            <button type="button" className="btn btn-sm btn-success m-2">React Tailwind</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Next.js</button>
-            <button type="button" className="btn btn-sm btn-success m-2">React Native</button> 
-            <button type="button" className="btn btn-sm btn-success m-2">Typescript</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Google Map</button>
-           
-            <h3 style={{color: "#fafad2"}} >Tools :</h3>
-            <button type="button" className="btn btn-sm btn-success m-2">VS Code</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Chrome Dev Tools</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Git</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Figma</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Adobe Illustrator</button>
-           
-            <h3 style={{color: "#fafad2"}} >Deploy :</h3>
-            <button type="button" className="btn btn-sm btn-success m-2">Heroku</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Netlify</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Firebase</button>
-            <button type="button" className="btn btn-sm btn-success m-2">Github</button>
+
+        <div>
+          <p className='skill-bar-text'>html5, css3, bootstrap5, tailwind css</p>
+        <div className="progress" style={{width: "65%"}}>
+           <div className="progress-bar progress-bar-striped progress-bar-animated" 
+           role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
+            style={{width: "93%", backgroundColor: "green"}}></div>
+         </div>
+        </div>
+<br/>
+       <div>
+       <p className='skill-bar-text'>Javascript, Es6, React bootstrap, React tailwind, Material-UI</p>
+       <div className="progress" style={{width: "65%"}}>
+  <div className="progress-bar progress-bar-striped progress-bar-animated"
+   role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
+    style={{width: "75%", backgroundColor: "#7ed6df"}}></div>
+</div>
+       </div>
+<br/>
+        <div>
+          <p className='skill-bar-text'>Redux, Typescript, Next.js, React Native, Google Map</p>
+        <div className="progress" style={{width: "65%"}}>
+  <div className="progress-bar progress-bar-striped progress-bar-animated"
+   role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
+    style={{width: "35%", backgroundColor: "#ff4d4d"}}></div>
+</div>
+        </div>
+<br/>
+        <div>
+          <p className='skill-bar-text'>Node.js, Express.js, MongoDB, Firebase, JWT Token, payment gateway</p>
+        <div className="progress" style={{width: "46%"}}>
+  <div className="progress-bar progress-bar-striped progress-bar-animated"
+   role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
+    style={{width: "75%", backgroundColor: "#e056fd"}}></div>
+</div>
+        </div>
 
         </article>
 
+     
 
 <Service></Service>
         
