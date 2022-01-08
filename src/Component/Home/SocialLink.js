@@ -18,7 +18,7 @@ const SocialLink = () => {
       };
 
     return (
-        <div style={{ marginTop: "15%"}}>
+        <div>
             
              <div style={{textAlign: "end", marginRight: "5%"}}>
       <a {...githubProps} rel="noreferrer" >
