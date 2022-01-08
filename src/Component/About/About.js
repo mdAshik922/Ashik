@@ -73,8 +73,6 @@ I look forward to meeting new people and finding new opportunities to solve prob
 
         </article>
 
-     
-
 <Service></Service>
         
         </div>
