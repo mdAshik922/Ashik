@@ -46,11 +46,9 @@ const Home = () => {
                     <i className="fas fa-file-download"></i>Resume</button>
                     </a>
                     </article>
-                   
-                      <img width="15%" src="https://i.ibb.co/6P322QP/illustrator-1.png" alt=""/>
+      
                       <img width="15%" src="https://i.ibb.co/phCtfp1/illustrator-2.png" alt=""/>
-                   
-               
+          
                     <Bounce bottom> <SocialLink></SocialLink></Bounce>
                 </div>
             </div>

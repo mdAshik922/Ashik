@@ -58,16 +58,16 @@ I look forward to meeting new people and finding new opportunities to solve prob
         <div className="progress" style={{width: "65%"}}>
   <div className="progress-bar progress-bar-striped progress-bar-animated"
    role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
-    style={{width: "35%", backgroundColor: "#ff4d4d"}}></div>
+    style={{width: "35%", backgroundColor: "rgb(205 86 113)"}}></div>
 </div>
         </div>
 <br/>
         <div>
           <p className='skill-bar-text'>Node.js, Express.js, MongoDB, Firebase, JWT Token, payment gateway</p>
-        <div className="progress" style={{width: "46%"}}>
+        <div className="progress" style={{width: "65%"}}>
   <div className="progress-bar progress-bar-striped progress-bar-animated"
    role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
-    style={{width: "75%", backgroundColor: "#e056fd"}}></div>
+    style={{width: "45%", backgroundColor: "#e056fd"}}></div>
 </div>
         </div>
 
