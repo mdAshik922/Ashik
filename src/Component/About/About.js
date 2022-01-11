@@ -10,7 +10,7 @@ const About = () => {
            <div>
            
            <h2 style={{color: "white", textAlign: "center",
-            fontSize: "4rem", fontWeight: "bolder"}}><img width="15%" src="https://i.ibb.co/6P322QP/illustrator-1.png" alt=""/> About</h2>
+            fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
            </div>
            
            <div className="container mt-5">
@@ -33,7 +33,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
         </div>
     </div>
     
-        <article style={{marginTop: "5%", marginLeft:"2%"}}>
+        <article style={{marginTop: "5%", display: "grid", gridTemplateColumns: "5fr auto"}}>
 
         <div>
           <p className='skill-bar-text'>html5, css3, bootstrap5, tailwind css</p>
@@ -70,7 +70,9 @@ I look forward to meeting new people and finding new opportunities to solve prob
     style={{width: "45%", backgroundColor: "#e056fd"}}></div>
 </div>
         </div>
-
+        <div>
+        <img width="45%" style={{marginTop: "-45%"}} src="https://i.ibb.co/6P322QP/illustrator-1.png" alt=""/>
+        </div>
         </article>
 
 <Service></Service>
