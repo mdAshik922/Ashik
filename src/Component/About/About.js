@@ -33,7 +33,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
         </div>
     </div>
     
-        <article style={{marginTop: "5%", display: "grid", gridTemplateColumns: "5fr auto"}}>
+        <article style={{ display: "grid", gridTemplateColumns: "5fr auto", marginTop: "5%",}}>
 
         <div>
           <p className='skill-bar-text'>html5, css3, bootstrap5, tailwind css</p>
