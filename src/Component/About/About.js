@@ -33,7 +33,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
         </div>
     </div>
     
-        <article style={{ display: "grid", gridTemplateColumns: "5fr auto", marginTop: "5%",}}>
+        <article style={{ display: "grid", gridTemplateColumns: "auto auto", marginTop: "5%", marginLeft: "10%"}}>
 
         <div>
           <p className='skill-bar-text'>html5, css3, bootstrap5, tailwind css</p>
@@ -70,9 +70,9 @@ I look forward to meeting new people and finding new opportunities to solve prob
     style={{width: "45%", backgroundColor: "#e056fd"}}></div>
 </div>
         </div>
-        <div>
-        <img width="45%" style={{marginTop: "-45%"}} src="https://i.ibb.co/6P322QP/illustrator-1.png" alt=""/>
-        </div>
+        <aside>
+        <img width="45%" style={{marginTop: "-45%", marginLeft: "10%", backgroundColor: "aquamarine",  transform: "rotate(20deg)"}} src="https://i.ibb.co/6P322QP/illustrator-1.png" alt=""/>
+        </aside>
         </article>
 
 <Service></Service>
