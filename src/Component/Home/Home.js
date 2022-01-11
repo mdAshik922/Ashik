@@ -47,7 +47,7 @@ const Home = () => {
                     </a>
                     </article>
       
-                      <img width="15%" src="https://i.ibb.co/phCtfp1/illustrator-2.png" alt=""/>
+                      <img width="15%" style={{backgroundColor: "cadetblue", borderRadius: "0px 50px 2px 0px"}} src="https://i.ibb.co/phCtfp1/illustrator-2.png" alt=""/>
           
                     <Bounce bottom> <SocialLink></SocialLink></Bounce>
                 </div>
