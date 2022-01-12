@@ -14,6 +14,7 @@ const Home = () => {
         href:"https://drive.google.com/file/d/1qCCZY9hH6xrNrMW9QxDh2SjzLuGbgWMn/view?usp=sharing",
          target:"_blank"
       };
+      
     return (
         <div id="home">
             <div  className="home" >
