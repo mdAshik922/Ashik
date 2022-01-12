@@ -1,5 +1,4 @@
 import React from 'react';
-import Roll from 'react-reveal/Roll';
 
 const SocialLink = () => {
     
