@@ -9,7 +9,7 @@ const Blogs = () => {
 
     return (
         <div id="blog">
-            <h2 style={{color: "white", textAlign: "center", marginTop: "4%", fontSize: "4rem", fontWeight: "bolder"}}>
+            <h2 style={{color: "white", textAlign: "center", marginTop: "8%", fontSize: "4rem", fontWeight: "bolder"}}>
             <i className="far fa-edit"></i>My Blog</h2>
 
 <div style={{marginLeft: "35%", marginTop: "3%"}}>
