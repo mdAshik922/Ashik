@@ -91,7 +91,6 @@ const Projects = () => {
 <div className="container mt-5">
                <div className="row">
                
-               
                 <div className="col-sm-4 project" style={{color: "white"}}>                 
                 <img width="100%" src="https://i.ibb.co/Zg8Qrrf/luxury-4.png" alt="luxury-room"/>
            
