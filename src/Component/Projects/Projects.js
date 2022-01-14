@@ -116,8 +116,7 @@ const Projects = () => {
 
         <a {...bicycleGithubServerSide}  rel="noreferrer"
        className="btn btn-success">GitHub-Server</a>
-       </div>
-                  
+       </div>      
                 </div>
 
                 <div className="col-sm-4 project" style={{color: "white"}}>
