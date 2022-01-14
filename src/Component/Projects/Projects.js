@@ -83,11 +83,8 @@ const Projects = () => {
 
     return (
         <div id="projects" style={{ marginTop: "10%"}}>
- <h2 style={{color: "white", textAlign: "center", marginBottom: "4%",
-  fontSize: "4rem", fontWeight: "bolder"}}
- >Here Are Some of </h2>
-
- <h2 style={{color: "white", marginTop: "1%", marginBottom: "4%",
+ 
+ <h2 style={{color: "white", marginTop: "1%", marginBottom: "2%",
   textAlign: "center",  fontSize: "4rem", fontWeight: "bolder"}}
  >My Projects</h2>
 

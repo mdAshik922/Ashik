@@ -28,7 +28,9 @@ const Service = () => {
                  <h2 className="service-head-line">Responsive Design</h2>
                     <p>
                     I can design responsive webpages.
+                    PSD to HTML and Figma.
                     It will be SEO optimized and hand-coded.
+                    <strong>W3c Validation.</strong>
                     </p>
                  </article>
                        </div>
