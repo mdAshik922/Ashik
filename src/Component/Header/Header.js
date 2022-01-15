@@ -18,7 +18,6 @@ const Header = () => {
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#blog"><i className="far fa-edit"></i>Blog</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#contact">Contact</Nav.Link>
     </Nav>
-  
   </Navbar.Collapse>
   </Container>
 </Navbar>
