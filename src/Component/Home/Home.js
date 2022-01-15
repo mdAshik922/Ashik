@@ -6,8 +6,8 @@ import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import SocialLink from './SocialLink';
 import Typewriter from "typewriter-effect";
-import './Home.css';
 import Service from '../Service/Service';
+import './Home.css';
 
 const Home = () => {
 
@@ -39,8 +39,8 @@ const Home = () => {
         loop: true,
         deleteSpeed: 50,
       }}
-    />  
-                    </span>
+    />  </span>
+                    
                      
                     <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
@@ -60,7 +60,6 @@ const Home = () => {
             <Projects></Projects>
             <Blogs></Blogs>
             <Contact></Contact>
-       
         </div>
     );
 };
