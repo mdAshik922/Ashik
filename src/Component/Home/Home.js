@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects';
 import SocialLink from './SocialLink';
 import Typewriter from "typewriter-effect";
 import './Home.css';
+import Service from '../Service/Service';
 
 const Home = () => {
 
@@ -54,7 +55,8 @@ const Home = () => {
             </div>
          
             <About></About>
-            <img width="100%" src="https://i.ibb.co/jhRSHhj/Screenshot-5.png" alt="project"/>
+            <img style={{marginTop:"4%"}} width="100%" src="https://i.ibb.co/jhRSHhj/Screenshot-5.png" alt="project"/>
+            <Service></Service>
             <Projects></Projects>
             <Blogs></Blogs>
             <Contact></Contact>

@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
              <div>
      <p style={{ color: "white", textAlign: 'center', marginTop: "3%" }}>
-        &copy;2022 <span style={{fontWeight: "bolder"}}>Ashik</span>. All Rights Reserved</p>
+     Copyright &copy;2022 <span style={{fontWeight: "bolder"}}>Ashik</span>. All Rights Reserved</p>
       </div>
         </div>
     );

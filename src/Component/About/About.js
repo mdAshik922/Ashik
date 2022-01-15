@@ -75,7 +75,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
         </aside>
         </article>
 
-<Service></Service>
+
         
         </div>
     );

@@ -8,7 +8,7 @@ import debug from './img/debug.png';
 const Service = () => {
     return (
         <div>
-            <div className="container mt-5">
+            <div className="container" style={{marginTop:"-3%"}}>
                <div className="row">
                <div className="col-sm-4" style={{color: "", backgroundColor:"#D6E5FA"}}>
 
