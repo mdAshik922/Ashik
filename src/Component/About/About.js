@@ -30,7 +30,6 @@ I look forward to meeting new people and finding new opportunities to solve prob
     </div>
     
         <article style={{ display: "grid", gridTemplateColumns: "auto auto", marginTop: "5%", marginLeft: "10%"}}>
-
         <div>
           <p className='skill-bar-text'>html5, css3, bootstrap5, tailwind css</p>
         <div className="progress" style={{width: "65%"}}>
