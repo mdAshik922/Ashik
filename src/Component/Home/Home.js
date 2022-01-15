@@ -41,7 +41,6 @@ const Home = () => {
       }}
     />  </span>
                     
-                     
                     <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
                     <i className="fas fa-file-download"></i>Resume</button>
