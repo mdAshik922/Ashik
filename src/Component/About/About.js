@@ -14,8 +14,7 @@ const About = () => {
            <div className="container mt-5">
            <div className="row">
          <div className="col-sm-3"  >
-                <img  width="80%" style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>
-                            
+                <img  width="80%" style={{border: "10px solid #c4c98b", borderRadius: "10%"}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>        
                    </div>
 
               <article className="about col-sm-9">
