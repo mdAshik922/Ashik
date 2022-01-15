@@ -1,5 +1,4 @@
 import React from 'react';
-import Service from '../Service/Service';
 import './About.css';
 
 
