@@ -69,9 +69,6 @@ I look forward to meeting new people and finding new opportunities to solve prob
         <img width="45%" style={{marginTop: "-45%", marginLeft: "10%", backgroundColor: "aquamarine", borderRadius: "16%", transform: "rotate(20deg)"}} src="https://i.ibb.co/6P322QP/illustrator-1.png" alt="skill"/>
         </aside>
         </article>
-
-
-        
         </div>
     );
 };
