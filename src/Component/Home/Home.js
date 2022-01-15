@@ -54,6 +54,7 @@ const Home = () => {
             </div>
          
             <About></About>
+            <img width="100%" src="https://i.ibb.co/jhRSHhj/Screenshot-5.png" alt="project"/>
             <Projects></Projects>
             <Blogs></Blogs>
             <Contact></Contact>
