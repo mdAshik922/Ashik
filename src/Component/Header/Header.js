@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
+
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  fixed="top">
@@ -16,7 +17,6 @@ const Header = () => {
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#projects">Projects</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#blog"><i className="far fa-edit"></i>Blog</Nav.Link>
       <Nav.Link as={HashLink} style={{color: "white", fontSize: "1rem", fontWeight: "bolder"}} to="/home#contact">Contact</Nav.Link>
-      
     </Nav>
   
   </Navbar.Collapse>
