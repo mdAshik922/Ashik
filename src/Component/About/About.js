@@ -7,7 +7,6 @@ const About = () => {
     return (
         <div id="about" style={{marginTop: "5%"}}>
            <div>
-           
            <h2 style={{color: "white", textAlign: "center",
             fontSize: "4rem", fontWeight: "bolder"}}> About</h2>
            </div>
