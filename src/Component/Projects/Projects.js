@@ -4,7 +4,7 @@ import './Projects.css';
 const Projects = () => {
 
     const luxuryProps = {
-        href:"https://book-haven-client.web.app/",
+        href:"https://zen-nightingale-e54304.netlify.app/",
          target:"_blank"
       };
 
