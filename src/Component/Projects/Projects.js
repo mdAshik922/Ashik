@@ -33,7 +33,7 @@ const Projects = () => {
       };
 
       const summerCampLiveSite = {
-        href:"capming-4c267.web.app",
+        href:"https://unruffled-stonebraker-10075c.netlify.app/",
          target:"_blank"
       };
 
