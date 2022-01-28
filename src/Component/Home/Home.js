@@ -20,13 +20,11 @@ const Home = () => {
         <div id="home">
             <div  className="home" >
                 <div style={{ color: "white",  marginTop: "15%"}}>
-                    <article>
-                    <h4 style={{textAlign: "center",  color: "rgb(18 214 221)",  fontSize: "5rem", fontFamily: "monospace"}}>
-                        Hi There &#9995;, I'm </h4>
+                    <div>
+                    <h4> Hi There &#9995;, I'm </h4>
 
- <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
- <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce>
- </h1>
+                <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
+                     <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce> </h1>
                          <span 
                     style={{fontWeight: "bolder", fontSize: "2rem", textAlign: "center"}}>
                     <Typewriter
@@ -38,14 +36,13 @@ const Home = () => {
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
-      }}
-    />  </span>
+      }} />  </span>
                     
                     <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
                     <i className="fas fa-file-download"></i>Resume</button>
                     </a>
-                    </article>
+                    </div>
       
                       <img width="15%" style={{backgroundColor: "cadetblue", borderRadius: "0px 50px 2px 0px"}} src="https://i.ibb.co/phCtfp1/illustrator-2.png" alt="working"/>
           
