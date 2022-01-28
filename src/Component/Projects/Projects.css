@@ -1,11 +1,5 @@
-*{
-    box-sizing: border-box;
-}
-
 .project{
     transition: transform .9s;
-    /* width: 35%; */
-  
     margin: 1% auto;
 }
 

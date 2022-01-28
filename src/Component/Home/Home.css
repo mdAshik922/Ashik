@@ -6,13 +6,8 @@
 }
 
 .home:hover{
-     
-     border-bottom: 1px solid red;
-   
+     border-bottom: 1px solid red;   
 }
 
-@media(max-width: 320px){
-.home h4{
-     margin-top: 17%;
-}
-}
+
+
