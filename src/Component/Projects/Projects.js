@@ -118,7 +118,7 @@ const Projects = () => {
        </div>      
                 </div>
 
-                <div className="col-sm-4 project" style={{color: "white"}}>
+                <div className="col-sm-4  project" style={{color: "white"}}>
                 <img width="100%" src="https://i.ibb.co/V9gMbdH/Screenshot-4.png" alt="summer-camp"/>
          
                 <div className="btn-group mt-2 d-flex">
