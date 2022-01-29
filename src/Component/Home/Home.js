@@ -23,8 +23,8 @@ const Home = () => {
                     <h4> Hi There &#9995;, I'm </h4>
                     <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
                      <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce> </h1>
-                         <span 
-                    style={{fontWeight: "bolder", fontSize: "2rem", textAlign: "center"}}>
+                       
+                         <span>
                     <Typewriter
             options = {{
                strings: [ "Junior Web Developer", " JavaScript Lover" ],
