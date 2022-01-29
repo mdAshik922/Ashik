@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <div id="home">
             <div  className="home" >
-                <div style={{ color: "white",  marginTop: "15%"}}>
+                <div>
                     <div>
                     <h4> Hi There &#9995;, I'm </h4>
 
