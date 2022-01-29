@@ -31,7 +31,7 @@ const Home = () => {
                      autoStart: true,
                        loop: true,
                      deleteSpeed: 50,
-                    }} />  </span>
+                      }} />  </span>
                     
                     <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
