@@ -26,7 +26,7 @@ const Home = () => {
                          <span 
                     style={{fontWeight: "bolder", fontSize: "2rem", textAlign: "center"}}>
                     <Typewriter
-            options={{
+            options = {{
                strings: [ "Junior Web Developer", " JavaScript Lover" ],
                      autoStart: true,
                        loop: true,
