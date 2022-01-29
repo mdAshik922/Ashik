@@ -1,22 +1,16 @@
-.home h4{
+.home h4 {
      text-align: center;
-       color: rgb(18 214 221);
-         font-size: 5rem;
-          font-family: monospace;
+     color: rgb(18 214 221);
+     font-size: 5rem;
+     font-family: monospace;
 }
 
-.home:hover{
-     border-bottom: 1px solid red;   
+.home:hover {
+     border-bottom: 1px solid red;
 }
 
-.home:first-child{
+.home:first-child {
      color: white;
      margin-top: 15%;
-}
-
-@media (max-width:320px) {
-     .home:first-child{
-          margin-top: 20%;
-     }
 }
 
