@@ -5,7 +5,9 @@
      font-family: monospace;
 }
 
-
+.home:hover {
+     border-bottom: 1px solid red;
+}
 
 .home:first-child {
      color: white;
