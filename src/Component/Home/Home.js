@@ -24,14 +24,15 @@ const Home = () => {
                     <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
                      <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce> </h1>
                        
-                         <span>
-                    <Typewriter
-            options = {{
-               strings: [ "Junior Web Developer", " JavaScript Lover" ],
-                     autoStart: true,
-                       loop: true,
-                     deleteSpeed: 50,
-                      }} />  </span>
+                     <span>
+                        <Typewriter
+                            options = {{
+                                          strings: [ "Junior Web Developer", " JavaScript Lover" ],
+                                           autoStart: true,
+                                             loop: true,
+                                           deleteSpeed: 50,
+                                      }} />
+                      </span>
                     
                     <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
