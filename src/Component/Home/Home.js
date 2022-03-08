@@ -12,7 +12,7 @@ import './Home.css';
 const Home = () => {
 
     const driveProps = {
-        href:"https://drive.google.com/file/d/1AI2-fCJk7zySJcyXKitafQVQ4VFDG_zY/view?usp=sharing",
+        href:"https://drive.google.com/file/d/1-cVCPb_0oKPobaDiPJ7sdEQHo-o90Yqv/view?usp=sharing",
          target:"_blank"
       };
       
