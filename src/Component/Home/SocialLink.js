@@ -19,15 +19,15 @@ const SocialLink = () => {
     return (
         <div>
              <div style={{textAlign: "end", marginRight: "5%"}}>
-      <a {...githubProps} rel="noreferrer" >
+      <a {...githubProps} rel="github" >
           <i  style={{ color: "red", fontSize: "2rem"}} className="fab fa-github"></i>
           </a>
           
-       <a {...linkedinProps} rel="noreferrer">
+       <a {...linkedinProps} rel="linkedin">
            <i style={{ color: "red",  margin: "15px", fontSize: "2rem"}} className="fab fa-linkedin"></i>
            </a>
 
-       <a {...facebookProps} rel="noreferrer">
+       <a {...facebookProps} rel="facebook">
            <i style={{ color: "red", fontSize: "2rem"}} className="fab fa-facebook"></i></a>
            </div>
         </div>
