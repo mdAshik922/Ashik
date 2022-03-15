@@ -12,7 +12,7 @@ const SocialLink = () => {
       };
 
       const facebookProps = {
-        href:"https://www.facebook.com/profile.php?id=100042195889411",
+        href:"https://www.facebook.com/Md.Ashik00000",
          target:"_blank"
       };
 
