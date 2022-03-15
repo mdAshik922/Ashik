@@ -49,7 +49,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
        </div>
 <br/>
         <div>
-          <p className='skill-bar-text'>Redux, Typescript, Next.js, React Native, Google Map</p>
+          <p className='skill-bar-text'>Redux, Typescript, Next.js, React Native</p>
         <div className="progress" style={{width: "65%"}}>
   <div className="progress-bar progress-bar-striped progress-bar-animated"
    role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
@@ -58,7 +58,7 @@ I look forward to meeting new people and finding new opportunities to solve prob
         </div>
 <br/>
         <div>
-          <p className='skill-bar-text'>Node.js, Express.js, MongoDB, Firebase, JWT Token, payment gateway</p>
+          <p className='skill-bar-text'>Node.js, Express.js, MongoDB, Firebase, JWT Token</p>
         <div className="progress" style={{width: "65%"}}>
   <div className="progress-bar progress-bar-striped progress-bar-animated"
    role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"
