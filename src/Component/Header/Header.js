@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  fixed="top">
+            <Navbar collapseOnSelect expand="lg" className="navigation"  fixed="top">
   <Container>
   <Navbar.Brand to="/home#home" style={{color: "yellow", fontSize: "2rem", fontWeight: "bolder"}}>Ashik</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
