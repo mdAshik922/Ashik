@@ -14,7 +14,7 @@ const About = () => {
            <div className="container mt-5">
            <div className="row">
          <div className="col-sm-3"  >
-                <img  width="80%" style={{}} src="https://i.ibb.co/cvctW3v/Layer-1.png" alt=""/>        
+                <img  width="80%" src="https://i.ibb.co/cvctW3v/Layer-1.png" alt="ashik"/>        
                    </div>
 
               <div className="about col-sm-9">
