@@ -3,12 +3,24 @@
      
 }
 
-.home h4 {
+.hassan {
+     font-size: 80px;
+     color: #fff;
      text-align: center;
-     color: rgb(18 214 221);
-     font-size: 5rem;
-     font-family: monospace;
-}
+     animation: hassan 1s ease-in-out infinite alternate;
+   }
+   
+   @keyframes hassan {
+     from {
+       text-shadow: 0 0 10px #fff, 0 0 20px rgb(176, 236, 158), 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+     }
+     
+     to {
+       text-shadow: 0 0 20px #fff, 0 0 30px #4dff97, 0 0 40px #4d8bff, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+     }
+   }
+
+
 
 .home:hover {
      border-bottom: 1px solid red;
