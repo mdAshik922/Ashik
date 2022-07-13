@@ -16,7 +16,7 @@ const Blogs = () => {
 <a style={{textDecoration: "none"}} {...medium} rel="noreferrer">
 <img width="50%" src="https://i.ibb.co/qLSM1Fs/download.png" alt="blog"/>
 <h3 style={{color: "white"}}>Javascript for Beginner</h3>
-<p style={{color: "#77E4D4"}}>...Learn more</p>
+<p style={{color: "#77E4D4"}}><strong>...Learn More</strong></p>
 </a>
 </div>
         </div>
