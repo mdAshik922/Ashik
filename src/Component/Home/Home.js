@@ -18,11 +18,12 @@ const Home = () => {
       
     return (
         <div id="home">
-            <div  className="home" >
+            <div className="home" >
               <div>
                     <h4 className="hassan"> Hi There &#9995;, I'm </h4>
-                    <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
-                     <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce> </h1>
+                     <h1 style={{fontSize: "2rem", fontWeight: "bolder", fontFamily: "cursive"}}>
+                        <Bounce right cascade> Md.Mahmudul Hassan Ashik </Bounce>
+                     </h1>
                        
                      <span>
                         <Typewriter
@@ -34,10 +35,10 @@ const Home = () => {
                                       }} />
                       </span>
                     
-                    <a  {...driveProps} rel="noreferrer">
+                       <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
-                    <i className="fas fa-file-download"></i>Resume</button>
-                    </a>
+                         <i className="fas fa-file-download"></i>Resume</button>
+                       </a>
                     </div>
                       <img width="15%" style={{backgroundColor: "cadetblue", borderRadius: "0px 50px 2px 0px"}} src="https://i.ibb.co/phCtfp1/illustrator-2.png" alt="working"/>
                     <Bounce bottom> <SocialLink></SocialLink></Bounce>
