@@ -37,9 +37,9 @@ const Home = () => {
                     
                        <a  {...driveProps} rel="noreferrer">
                          <button style={{backgroundColor: "greenyellow", fontSize: "2rem", fontWeight: "bold", borderRadius: '10px', marginLeft: "35%"}} type=''>
-                         <i className="fas fa-file-download"></i>Resume</button>
-                       </a>
-                    </div>
+                          <i className="fas fa-file-download"></i>Resume</button>
+                      </a>
+                </div>
                       <img width="15%" style={{backgroundColor: "cadetblue", borderRadius: "0px 50px 2px 0px"}} src="https://i.ibb.co/phCtfp1/illustrator-2.png" alt="working"/>
                     <Bounce bottom> <SocialLink></SocialLink></Bounce>
             </div>
